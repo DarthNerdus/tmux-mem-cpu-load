@@ -86,8 +86,8 @@ string cpu_string( unsigned int cpu_usage_delay, unsigned int graph_lines )
     meter_count++;
     }
 
-  oss << meter;
-  oss.width( 5 );
+//  oss << meter;
+//  oss.width( 5 );
   oss << percentage;
   oss << "%";
 
