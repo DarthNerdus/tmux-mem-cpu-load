@@ -190,8 +190,8 @@ std::string cpu_string( unsigned int cpu_usage_delay,
     {
     oss << cpu_percentage_lut[static_cast<unsigned int>( percentage )];
     }
-  oss << meter;
-  oss.width( 5 );
+  //oss << meter;
+  //oss.width( 5 );
   oss << percentage;
   oss << "%";
   if( use_colors )
